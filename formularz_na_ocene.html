@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+	<title>Strona Szczepana - Projektowanie Stron Internetowych</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<div style="background-color:grey;">
+		<h1><center>Projektowanie Stron Internetowych - Szymon Szczepaniak</center></h1>
+	</div>
+	<div style="float:left; widhth:30%; height:550px;">
+		<h3>HTML</h3>
+			<a href="index.html">STRONA GŁOWNA</a> </br>
+			<a href="kolory.html">KOLORY</a> </br>
+			<a href="nauczyciele.html">NAUCZYCIELE</a> </br>
+			<a href="zdjecia.html">ZDJĘCIA</a> </br>
+			<a href="tabela.html">TABELE</a> </br>
+			<a href="listy.html">LISTY</a> </br>
+			<a href="formularz.html">FORMULARZ</a> </br>
+			<h3>CSS</h3>
+			
+			<h3>DOKUMENTY</h3>
+			<a href="doc/grupaI2c.docx" target="new"> LISTA GR. 1</a> </br>
+			<a href="doc/Wydatki_grupaI_2c.xlsx" target="new">WYDATKI GR. 1</a> </br>
+			
+			<h3>LINKI</h3>
+			
+			<h3>MULTIMEDIA</h3>
+			
+	</div>
+	<div style="float:right; width:70%;">
+	
+	<fieldset>
+	<legend><span style="color:red;">Dane Osobowe</span></legend>
+	<input type="text" name="miejscowosc_i_data"/>
+	<p> Miejscowość i Data</p> </br>
+	<p>Imię &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nazwisko</p>
+	<input type="text" name="imie"/>
+	<input type="text" name="nazwisko"/>
+	<p> Adres Zamieszkania </p>
+	<textarea name="adres_zamieszkania" cols="50" rows="6">&nbsp;</textarea>
+	<p> Telefon Komórkowy &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-Mail</p>
+	<input type="text" name="numer_tel" maxlength="9"/>
+	<input type="text" name="mail"/>
+	</fieldset>
+	</br>
+	
+	<fieldset>
+	<legend><span style="color:red;">Formularz Zwrotu</span></legend>
+	</br>
+	</br>
+	Zwracam w nieznisczonym stanie: </br>
+	<p>Nazwa towaru:</p>
+	<input type="text" name="towar"/>
+	<p>Kolor&nbsp;&nbsp; &nbsp;&nbsp;- &nbsp;&nbsp;&nbsp;&nbsp;Indeks towaru &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rozmiar</p>
+	<table>
+	<td> <input type="color" name="kolory"/> </td>
+	<td> <input type="text" nazwa="indeks_towaru"/> </td>
+	<td><p><input type="checkbox" nazwa="rozmiar"/> 5 </td>
+	<td> <input type="checkbox" nazwa="rozmiar"/> 10  </td>
+	<td> <input type="checkbox" nazwa="rozmiar"/> 15 </td>
+	<td> <input type="checkbox" nazwa="rozmiar"/> 20 </td>
+	</table>
+	</br>
+	
+	
+	<p>Numer Towaru</p>
+	
+	<p><input type="checkbox" nazwa="numer_towaru"/> 1 
+	<input type="checkbox" nazwa="numer_towaru"/> 2 
+	<input type="checkbox" nazwa="numer_towaru"/> 3 </p>
+	
+	<p>Data zakupu</p>
+	<input type="text" name="data_zakupu"/>
+	
+	<table>
+	<p>Przyczyna zwrotu: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kwota zwrotu:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dane do Przelewu:</p>
+	<td><textarea name="przyczyna" cols="30" rows="6">&nbsp;</textarea></td>
+	<td><input type="text" name="kwota"/></td>
+	<td><textarea name="dane_do_przelewu" cols="30" rows="6">&nbsp;</textarea></td>
+	</table>
+	</br>
+	</br>
+	Zgodnie z ustawą z dnia 30 Maja 2014 roku o prawach konsumenta (Dz. U. Z dnia 24 Czerwca 2014 roku poz. 827) Niniejszym oświadczam, że odstępuje od umowy sprzedaży.
+	 <p>Data i podpis Klienta</p>
+	 <input type="text" name="data_i_podpis"/>
+	 </br>
+	 </br>
+	 
+	 <center><button type="button" value="Wyślij" onclick="alert('Wysłano')"> Wyślij </button></center>
+	 
+	
+	
+	</div>
+	<div style="background-color:grey; clear:both;"><center>&copy;S.S, November 2024</center>
+	</div>
+</body>
+</html>	

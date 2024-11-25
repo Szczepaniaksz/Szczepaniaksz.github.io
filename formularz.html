@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+	<title>Strona Szczepana - Projektowanie Stron Internetowych</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<div style="background-color:grey;">
+		<h1><center>Projektowanie Stron Internetowych - Szymon Szczepaniak</center></h1>
+	</div>
+	<div style="float:left; widhth:30%; height:550px;">
+		<h3>HTML</h3>
+			<a href="index.html">STRONA GŁOWNA</a> </br>
+			<a href="kolory.html">KOLORY</a> </br>
+			<a href="nauczyciele.html">NAUCZYCIELE</a> </br>
+			<a href="zdjecia.html">ZDJĘCIA</a> </br>
+			<a href="tabela.html">TABELE</a> </br>
+			<a href="listy.html">LISTY</a> </br>
+			<a href="formularz.html">FORMULARZ</a> </br>
+	</div>
+	<div style="float:right; width:70%;">
+<font size="6">
+	<center> FORMULARZ PRZYKŁADOWY</center>
+</font>
+<table>
+<tr><td>IMIĘ I NAZWISKO:</td><td><input type="text" id="nazwisko_i_imie"></td></tr>
+<tr><td>ADRES E-MAIL:</td><td><input type="e-mail" id="email" size="40" maxlenght="40"></td></tr>
+<tr><td>HASŁO:</td><td><input type="password" id="hasło" size="10" maxlenght="10"></td></tr>
+</table>
+
+<fieldset>
+<legend> PŁEĆ (z etykietą label)</legend>
+<p><label for="male">MĘŻCZYZNA</label>
+	<input type="radio" name="gender" id="male" value="mezczyzna"> </br>
+	<label for="female"> KOBIETA </label>
+	<input type="radio" name="gender" id="female" value="kobieta"> <br> </p>
+	
+	
+<h2> Zdarzenie onfocus oraz onblur </h2>
+
+<p>Po "wejściu" do pola input, funkcja ustawia kolor na żółty.</p>
+<p>Po opuszczeniu pola input, funkcja ustawia kolor tła na czerwony.</p>
+
+Wpisz swoje imię i nazwisko:
+<input type="text" id="myInput" onfocus="focusFunction()" onblur="blurFunction()">
+
+<script>
+function focusFunction() {
+	document.getElementById("myInput").style.background = "yellow";
+}
+function blurFunction() {
+	document.getElementById("myInput").style.background = "red";
+}
+</script>
+
+
+
+
+
+
+
+	</div>
+</body>
+</html>
