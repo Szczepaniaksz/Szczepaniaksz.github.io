@@ -1,0 +1,366 @@
+<!DOCTYPE HTML>
+<html><head>
+<title>Właściowści CSS</title>
+<style type="text/css">
+	p{
+		font-family:"Courier New";
+		font-style:italic;
+		font-weight:500;
+		font-size:20px;
+		color:maroon;
+	}
+	
+	blockquote{
+	font-family:Fantasy;
+	font-style:bolder;
+	font-size:30px;
+	font-variant:small-caps;
+	color:teal;
+	}
+	
+	em {
+	font-family:sans;
+	font-size:30px;
+	color:fuchsia;
+	}
+	
+	h3{
+	color:red;
+	text-decoration:underline;
+	word-spacing:15px;
+	text-align:left;
+	text-transform:uppercase;
+	}
+	
+	h1{
+	text-decoration:overline;
+	line-height:100%;
+	text-align:center;
+	color:green;
+	text-transform:lowercase;
+	text-indent:20px;
+	letter-spacing:2px;
+	}
+	
+	h4{
+	color:purple;
+	text-decoration:line-through;
+	line-height:2cm;
+	text-align:right;
+	text-transform:capitalize;
+	text-indent:50px;
+	letter-spacing:5px;
+	}
+	
+	body{
+	background-image:url(foty/cinema.jpg) ;	
+	background-position: center right;
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	margin-right: 15px;
+	margin-left: 20px;
+	margin-bottom: 25px;
+	}
+	
+	h5#logo {
+				background-color: black;
+				color: white;
+				font: 50px tohoma;
+				text-align: center;
+				text-shadow: red 4px 4px 8px;
+				border: double silver;
+				letter-spacing: 15px;
+				}
+		div#obramowanie1 {
+				border-style: dotted;
+				border-color: aqua;
+				border-width: medium;
+				width: 40%;
+				
+				}
+		h2.klasa {
+				border: medium dashed aqua;
+				background-color: yellow;
+				
+				}
+		h3.klasa {
+				border: medium ridge yellow ;
+				background-color: black;
+				color:silver;
+				font-variant: small-caps;
+				text-align: right;
+				}
+		h3#identyfikator {
+				border-color: fuchsia
+				}
+				
+		h3.zadanie2 {
+		text-decoration:overline;
+		letter-spacing: 5pt;
+		text-align: center;
+		color: white;
+		background-color: fuchsia;
+		border: 3px dotted white;
+		padding: 20px;
+		width: 70%;
+		}
+		
+		h3.zadanie22 {
+		text-decoration: overline;
+		letter-spacing: 5pt;
+		text-align: center;
+		color:white;
+		background-color: fuchsia;
+		background-clip: content-box;
+		border: 3px dotted navy;
+		padding: 20px;
+		width: 70%
+		}
+		
+		.z5 {
+		text-decoration: underline;
+		color: white;
+		letter-spacing: 3pt;
+		background-image: URL(foty/paczek.jpg);
+		width: 70%;
+		}
+		
+		h2#ramka1 {
+		background-color: white;
+		color: black;
+		padding: 10px;
+		width: 70%;
+		border: 30px solid transparent;
+		border-image: URL(foty/liscie.jpg) 50 stretch;
+		}
+
+		h2#ramka2 {
+		background-color: white;
+		color: black;
+		padding: 10px;
+		width: 70%;
+		border: 30px solid transparent;
+		border-image: URL(foty/liscie.jpg) 50 round;
+		}
+		
+		a.t1:link {
+			color:black;
+			text-decoration:none;
+			background-color: fuchsia;
+			border-radius: 5px;
+			border-color: black;
+			border: 3px solid;
+		}
+
+		a.t1:hover {
+			color:yellow;
+			text-decoration: none;
+			background-color: green;
+			border: 3px dotted;
+			border-color: yellow;
+			border-radius: 5px;
+		}
+
+		a.t2:link{
+			color:black;
+			background-color: yellow;
+			border: 3px black double;
+			padding: 2px;
+			border-radius: 5px;
+			background-clip: content-box;
+		}
+
+		a.t2:hover{
+			color:cyan;
+			background-color: green;
+			border: 3px  cyan ridge;
+			padding: 2px;
+			border-radius:5px;
+			background-clip: content-box;
+		}
+		
+		ol.punkty{
+			list-style-type: circle;
+			list-style-position: outside;
+			color: pink;
+			font-family: italic;
+			}
+		
+		ul.numer{
+			list-style-type: upper-alpha;
+			list-style-position: inside;
+			color: cyan;
+			font-family: sans-serif;
+			}
+			
+		li.gwiazdka{
+			list-style-image:url(foty/kino.gif);
+			}
+			
+		li.balwan{
+			list-style-image:url(foty/goku.gif);
+			}
+			
+		li.gwiazdka1{
+			list-style-image:url(foty/kino2.gif);
+			}
+			
+		li.balwan1{
+			list-style-image:url(foty/goku2.gif);
+			}
+			
+		table {
+			cursor: url('doc/cursor.cur'), auto;
+			}
+		
+		div#rozmiar{
+			height: 8%;
+			width: 45%;
+			color: orange;
+			border: solid;
+			padding: 10px 15px 20px 25px;
+			}
+		
+		
+</style></head>
+<body>
+<h3><u>ZADANIE  I -  CZCIONKA:</u></h3>
+<p>Formatowanie akapitu p: krój czcionki – Courier New, styl – pochylenie,
+grubość – 500, rozmiar – 20 px, kolor - maroon</p>
+
+<h3><u>ZADANIE IA - CZCIONKA:</u></h3>
+<blockquote>
+Formatowanie blockquote: krój czcionki – fantasy, styl – pochylenie,
+grubość – bolder, rozmiar – 30px, typ czcionki - kapitaliki, kolor - teal
+</blockquote>
+<h3><u>ZADANIE IB - CZCIONKA:</u></h3>
+<em>
+Formatowanie (wyróżnionego tekstu - uwypuklenia) EM: dowolne !! </br> </br>
+</em>
+
+<hr>
+
+<h3><u>ZADANIE II - TEKST:</u></h3>
+<h1>
+Formatowanie tytułu h1:</br>
+dekoracja tekstu – nakreślenie,</br>
+odstępy między wierszami – 100%,</br>
+wyśrodkowanie,</br>
+kolor tekstu – zielony,</br>
+zamiana tekstu - małe litery</br>
+wcięcie wiersza - 20px;</br>
+odstępy miedzy znakami: 2px</br>
+</h1>
+
+<h3><u>ZADANIE IIA - TEKST:</u></h3>
+
+Formatowanie tytułu h4:</br>
+kolor tekstu –fioletowy, dekoracja tekstu – przekreślenia, odstępy między liniami – 2cm,</br>
+tekst do prawej strony, zmiana tekstu – kapitaliki, wcięcie pierwszego wiersza - 50px;</br>
+odstępy miedzy znakami: 5px:
+<h4>
+Formatowanie tytułu h4:</br>
+kolor tekstu –fioletowy, dekoracja tekstu – przekreślenia, odstępy między liniami – 2cm,</br>
+tekst do prawej strony, zmiana tekstu – kapitaliki, wcięcie pierwszego wiersza - 50px;</br>
+odstępy miedzy znakami: 5px:
+</h4>
+
+<h3><u>ZADANIE IIB - TEKST:</u></h3>
+<h3>
+Formatowanie tytułu h3:</br>
+dekoracja tekstu – podkreślenie;</br>
+odległość między wyrazami w tekście: 15px;</br>
+text-align: left;</br>
+color: red;</br>
+zmiana wielkości liter w tekście: duże litery;
+</h3>
+
+
+</div>/>
+<div style="float:right;width:70%;">
+
+	<div id="obramowanie1" > <h3> zadanie IV – OBRAMOWANIE: </h3> </div>
+	<h2 class="klasa">zadanie IV – OBRAMOWANIE:<br />Ustawienie obr. dla h2: styl – kreskowanie, kolor obr. – aqua, grubość - średnia, tło żółte</h2>
+	<h3 class="klasa">KOLOR TEKSTU: SREBRNY, CZARNE TŁO, ŻÓŁTE OBRAMOWANIE, STYL OBRAMOWANIA: RIDGE,<br />DUŻE LITERY / KAPITALIKI, TEKST USTAWIONY: DO PRAWEJ, BRAK DEKORACJI</h2>
+	<h3 class="zadanie2">TEKST NAKREŚLONY, ODSTĘPY MIĘDZY ZNAKAMI W TEKŚCIE 5 PT, WYŚRODKOWANY TEST, KOLOR TEKSTU BIAŁY, TŁO FUCHSIA, OBRAMOWANIE 3PX KROPOWANE BĄDŹ INSET BIAŁE, ODSTĘP 20 PX, SZEROKOŚĆ 70%</h3>
+	<h3 class="zadanie22">TEKST NAKREŚLONY, ODSTĘPY MIĘDZY ZNAKAMI W TEKŚCIE 5 PT, WYŚRODKOWANY TEST, KOLOR TEKSTU BIAŁY, TŁO FUCHSIA, OBRAMOWANIE 3PX KROPOWANE BĄDŹ INSET BIAŁE, ODSTĘP 20 PX, SZEROKOŚĆ 70%</h3>
+	<h2 class="z5"> text-decoration: underline;color: white;letter-spacing: 3pt;background-image: URL(foty/paczek.jpg)width: 70%; </h2>
+	<h2 id="ramka1">zadanie IV – OBRAMOWANIE:Ustawienie obramowania obrazkowego dla nagłówka h2 - z identyfikatorem "ramka1"TŁO: białe; TEKST: czarny, ODSTĘP: 10px, SZEROKOŚĆ: 70%; border: 30px solid transparent;border-image: url(folder/nazwa.jpg) 50 stretch;</>OBRAZ JEST ROZCIĄGNIĘTY ABY WYPEŁNIĆ CAŁY OBSZAR</h2>
+	<h2 id="ramka2">zadanie IV – OBRAMOWANIE:Ustawienie obramowania obrazkowego dla nagłówka h2 - z identyfikatorem "ramka1"TŁO: białe; TEKST: czarny, ODSTĘP: 10px, SZEROKOŚĆ: 70%; border: 30px solid transparent;border-image: url(folder/nazwa.jpg) 50 round;</>OBRAZ JEST ROZCIĄGNIĘTY ABY WYPEŁNIĆ CAŁY OBSZAR</h2>
+	<h3>
+	ZADANIE V - CSS: LINKI - PSEUDOKLASY
+	</h3>
+	<a class="t1" href="https://www.onet.pl/" target="new"> ONET </a> &nbsp;&nbsp;&nbsp;
+	<a class="t1" href="https://www.wp.pl/" target="new"> WIRTUALNA POLSKA </a> &nbsp;&nbsp;&nbsp;
+	<a class="t1" href="https://tsi-pai.cba.pl/" target="new"> TSI - PAI </a> &nbsp;&nbsp;&nbsp; </br></br></br></br></br>
+	<a class="t2" href="https://www.onet.pl/" target="new"> ONET </a> &nbsp;&nbsp;&nbsp;
+	<a class="t2" href="https://www.wp.pl/" target="new"> WIRTUALNA POLSKA </a> &nbsp;&nbsp;&nbsp;
+	<a class="t2" href="https://tsi-pai.cba.pl/" target="new"> TSI - PAI </a> &nbsp;&nbsp;&nbsp; </br>
+	
+	<h3>
+	ZADANIE VI - LISTY
+	</h3></br>
+	
+	<ol class="punkty"> PIĘĆ ZALET PRZEDMIOTU PSI:
+		<li> ciekawy przedmiot </li>
+		<li> rozwijanie kreatywności </li>
+		<li> przyda się w przyszłości </li>
+		<li> dużo nowych informacji </li>
+		<li> nauka języków html i css </li>
+		</ol>
+		
+		</br>
+		
+	<ul class="numer"> TRZY WADY PRZEDMIOTU PSI:
+		<li> nieobecność = dużo zaległośći </li>
+		<li> dużo notatek </li>
+		<li> &nbsp; </li>
+	</ul>
+	</br>
+	
+	<ol>CO MUSZĘ ZROBIĆ PRZED ŚWIĘTAMI BOŻEGO NARODZENIA: 
+		<li class="gwiazdka"> KUPIĆ PREZENTY </li>
+		<li class="balwan"> KUPIĆ KARPIA </li>
+		<li class="gwiazdka1"> KUPIĆ OPŁATKI </li>
+		<li class="balwan1"> POSPRZĄTAĆ </li>
+		<li class="gwiazdka1"> UGOTOWAĆ 12 DAŃ </li>
+	</ol>
+	</br>
+	</br>
+	
+	<h3>
+	ZADANIE VII - KURSOR:
+	</h3>
+	</br>
+	
+	<table border="3" width="400px">
+		<tr>
+			<td>1</td>
+			<td>2</td>
+		</tr>
+	</table>
+	</br>
+	</br>
+	</br>
+	<h3>
+	ZADANIE VIII - ROZMIAR
+	</h3>
+	</br>
+	<div id="rozmiar">Ustawienie wysokości (8%) i szerokości (45%) dla elementu div#rozmiar
+Kolor i rodzaj obramowania dobierz samodzielnie
+div#rozmiar { height: 8%; width: 45%; border: ...........; }
+	</div>
+	</br>
+	</br>
+	</br>
+	
+	<h3>
+	ZADANIE IX - MARGINESY:
+	</h3>
+	</br>
+	
+	
+</div>
+</div>
+</body>
+</html>
