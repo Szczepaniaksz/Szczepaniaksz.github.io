@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html><head>
+<title>Pseudo Elementy</title>
+<style type="text/css">
+
+p:first-letter {
+	font-size: 1000%;
+	color: purple;
+	background-color: fuchsia;
+	border: 5px white solid;
+	float: left;
+	line-height: .8em;
+	}
+
+#element {
+	border: 1px solid red;
+	padding: 20px;
+	}
+	
+#element:before {
+	content: '╰(*°▽°*)╯';
+	color: blue;
+	background-color: cyan;
+	border: 1px solid black;
+	border-radius:50%;
+	}
+
+#element:after {
+	content: 'DAMY RADĘ TO ZROBIĆ';
+	color: green;
+	background-color:lime;
+	}
+
+::marker {
+	color:red;
+	font-size: 23px;
+	}
+
+::selection {
+	color: fuchsia;
+	background-color: pink;
+	}
+
+
+
+</style></head>
+<body>
+<p>Lorem</p> ipsum dolor sit amet, consectetur adipiscing elit. In nec orci sit amet lectus feugiat pellentesque. Curabitur eleifend scelerisque
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+
+
+<h2 id="element"> ZDAĆ DO TRZECIEJ KLASY </h2>
+<h2 id="element"> ZDAĆ MATURĘ </h2>
+<h2 id="element"> ZDAĆ EGZAMIN ZAWODOWY </h2>
+</br>
+</br>
+</br>
+
+
+<ul>
+	<li> Coffe </li>
+	<li> Tea </li>
+	<li> Milk </li>
+</ul>
+
+<ol>
+	<li> First </li>
+	<li> Second </li>
+	<li> Third </li>
+</ol>
+
+</body>
+</html>

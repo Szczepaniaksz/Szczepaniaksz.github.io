@@ -1,0 +1,22 @@
+table.jeden, td.jeden{
+	border:1px solid;
+	border-collapse:collapse;
+	table-layout:fixed;
+	border-color:blue;
+	text-align:left;
+	width:35%;
+}
+
+table.one{
+	width:80%
+	border-collapse:collapse;
+}
+
+th.one{
+	border: 3px red solid;
+	padding: 10px;
+	text-transform: uppercase;
+	background-color:cyan;
+	text-align:center;
+	border-collapse:collapse;
+}

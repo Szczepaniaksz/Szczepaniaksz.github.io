@@ -1,0 +1,22 @@
+p[align] {
+	color:red;
+	font-size: 20pt;
+}
+
+p.bialy[align="right"] {
+	color:white;
+	font-size: 25pt;
+}
+
+body{
+	background-color:lightgray;
+}
+
+h3 {
+	font-size: 30pt;
+	color:red;
+	text-decoration:underline;
+	border: 4px dotted red;
+	background-color: white;
+	
+	
