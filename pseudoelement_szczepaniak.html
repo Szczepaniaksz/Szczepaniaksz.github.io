@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html><head>
+<title>Pseudo Elementy - Zadanie</title>
+<style type="text/css">
+
+::selection{
+	color: fuchsia;
+	background-color: yellow;
+	}
+p::first-letter{
+	color: purple;
+	background-color: fuchsia;
+	border: 5px solid pink;
+	float: left;
+	line-height: .8em;
+	font-size: 1000%;
+	}
+#linia::first-line{
+	color: white;
+	background-color: black;
+	text-decoration: overline;
+	}
+#element:before{
+	content: '(❁´◡`❁)';
+	color: yellow;
+	background-color: orange;
+	border: 1px solid black;
+	border-radius:20%;
+	}
+#element:after{
+	content: '(❁´◡`❁)';
+	color: yellow;
+	background-color: orange;
+	border: 1px solid black;
+	border-radius:20%;
+	}
+#litera::first-letter{
+		color: blue;
+		background-color: cyan;
+		border: 5px dotted navy;
+		float: left;
+		line-height: .8em;
+		font-size: 1000%;
+		}
+#linka::first-line{
+	color: lime;
+	background-color: green;
+	text-decoration: underline;
+	border: 1px solid purple;
+	}
+::marker {
+	color: brown;
+	font-size: 40px;
+	}
+	
+	
+</style>
+<body>
+
+<h1 id="element"> "Pomidor" - Jan Brzechwa <h1>
+
+
+<p> P </p> <h2 id="linia"> an pomidor wlazł na tyczkę
+I przedrzeźnia ogrodniczkę.
+"Jak pan </h2> może,
+Panie pomidorze?!"
+
+Oburzyło to fasolę:
+"A ja panu nie pozwolę!
+Jak pan może,
+Panie pomidorze?!"
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+<h3 id="litera"> G </h1> <h3 id="linka">roch zzieleniał aż ze złości:
+"Że też nie wstyd jest waszmości,
+Jak pan może,
+Panie pomidorze?!" </h3>
+
+Rzepka także go zagadnie:
+"Fe! Niedobrze! Fe! Nieładnie!
+Jak pan może,
+Panie pomidorze?!"
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+<ul>
+	<li> Rzepka także go zagadnie: </li>
+	<li> "Fe! Niedobrze! Fe! Nieładnie!: </li>
+	<li> Jak pan może, </li>
+	<li> Panie pomidorze?!" </li>
+</ul>
+
+
+
+</body></html>
